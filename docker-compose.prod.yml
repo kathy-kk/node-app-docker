@@ -5,7 +5,6 @@ services:
       - "80:80"
   node-app:
     build:
-      image: kathykk/node-app
       context: .
       args:
           NODE_ENV: production

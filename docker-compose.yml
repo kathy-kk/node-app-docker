@@ -10,6 +10,7 @@ services:
       - node-app
   node-app:
     build: .
+    image: kathykk/node-app
     environment:
       - PORT=3000
     depends_on: 
